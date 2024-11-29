@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:orangered;
+}
+
+#under_title {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 400px;
+}
+
+#cards_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 50px;
+    flex-grow: 1;
+}
+
+.cards {
+    height: 200px;
+    width: 500px;
+    background-color: black;
+    color: rgb(169, 15, 15);
+}
+
+#email {
+    color: deepskyblue;
+}
+
+img {
+    max-width: 100%;
+}
